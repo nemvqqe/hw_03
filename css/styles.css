@@ -1,0 +1,80 @@
+/* Hero */
+
+.hero {
+  background-color: var(--primary-footer-bg-color);
+}
+
+.hero__title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  width: 696px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Hero button */
+
+.hero__button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.section__title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* Benefits */
+
+.benefits__title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefits__text {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Do list */
+
+.section__body {
+  background-color: var(--primary-white-color);
+}
+
+/* Team */
+
+.section__card {
+  background-color: var(--primary-white-color);
+}
+.section__text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.section__name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
