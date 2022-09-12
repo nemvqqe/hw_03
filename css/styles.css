@@ -2,6 +2,7 @@
 
 .hero {
   background-color: var(--primary-footer-bg-color);
+  text-align: center;
 }
 
 .hero__title {
@@ -9,9 +10,10 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  width: 696px;
   text-transform: uppercase;
-  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  margin: 0;
 }
 
 /* Hero button */
@@ -20,23 +22,38 @@
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   border: transparent;
+  border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
   font-family: inherit;
   cursor: pointer;
+  padding: 10px 32px;
 }
 
-.section__title {
+.section__title,
+.team__title {
   color: var(--title-text-color);
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 /* Benefits */
+
+.benefits {
+  background-color: var(--primary-white-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.benefits__list {
+  display: flex;
+}
 
 .benefits__title {
   color: var(--title-text-color);
@@ -44,6 +61,8 @@
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin: 0 0 10px 0;
 }
 
 .benefits__text {
@@ -51,30 +70,52 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 
 /* Do list */
 
-.section__body {
+.section {
   background-color: var(--primary-white-color);
+  padding-bottom: 94px;
+}
+
+.section__list {
+  display: flex;
 }
 
 /* Team */
 
-.section__card {
-  background-color: var(--primary-white-color);
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-.section__text {
+
+.team__card {
+  background-color: var(--primary-white-color);
+  height: 368px;
+  text-align: center;
+}
+.team__text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
-.section__name {
+.team__name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.team__list {
+  display: flex;
+  margin: 0 auto;
 }
