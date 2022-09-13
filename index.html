@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Студія</title>
+    <title>WebStudio | Студія</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,27 +20,33 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header__container">
+        <div class="logo">
+          <a class="logo__text" href="./index.html">
+            Web<span class="logo__header-studio">Studio</span>
+          </a>
+        </div>
         <nav class="nav">
-          <div class="logo">
-            <a class="logo__text" href="./index.html">
-              Web<span class="logo__header-studio">Studio</span>
-            </a>
-          </div>
           <ul class="nav__list list">
-            <li><a class="nav__link nav__link_current" href="./">Студія</a></li>
-            <li><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
-            <li><a class="nav__link" href="./">Контакти</a></li>
+            <li class="nav__item">
+              <a class="nav__link nav__link_current" href="./">Студія</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./">Контакти</a>
+            </li>
           </ul>
         </nav>
         <div class="con">
           <ul class="con__list list">
-            <li>
+            <li class="con__item">
               <a class="con__link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="con__item">
               <a class="con__link" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
@@ -59,27 +65,27 @@
       <section class="benefits">
         <div class="container">
           <ul class="benefits__list list">
-            <li>
+            <li class="benefits__item">
               <h2 class="benefits__title">Увага до деталей</h2>
               <p class="benefits__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="benefits__item">
               <h2 class="benefits__title">Пунктуальність</h2>
               <p class="benefits__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="benefits__item">
               <h2 class="benefits__title">Планування</h2>
               <p class="benefits__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="benefits__item">
               <h2 class="benefits__title">Сучасні технології</h2>
               <p class="benefits__text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -93,21 +99,21 @@
         <div class="container">
           <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="section__list list">
-            <li>
+            <li class="section__item">
               <img
                 src="./images/neondesktop.jpg"
                 alt="Неоновий робочий стіл"
                 width="370"
               />
             </li>
-            <li>
+            <li class="section__item">
               <img
                 src="./images/phonedesktop.jpg"
                 alt="Телефон та ноутбук"
                 width="370"
               />
             </li>
-            <li>
+            <li class="section__item">
               <img
                 src="./images/rgbdesktop.jpg"
                 alt="Палітра кольорів на планшеті"

@@ -3,6 +3,8 @@
 .hero {
   background-color: var(--primary-footer-bg-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero__title {
@@ -11,9 +13,8 @@
   font-size: 44px;
   line-height: 1.4;
   text-transform: uppercase;
-  padding-top: 200px;
-  padding-bottom: 280px;
-  margin: 0;
+  width: 696px;
+  margin: 0 auto;
 }
 
 /* Hero button */
@@ -30,6 +31,13 @@
   font-family: inherit;
   cursor: pointer;
   padding: 10px 32px;
+  margin: 30px auto 0 auto;
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  background-color: var(--primary-filter-bg-color);
+  color: var(--title-text-color);
 }
 
 .section__title,
@@ -53,6 +61,10 @@
 
 .benefits__list {
   display: flex;
+}
+
+.benefits__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .benefits__title {
@@ -84,6 +96,10 @@
   display: flex;
 }
 
+.section__item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Team */
 
 .team {
@@ -95,6 +111,11 @@
   background-color: var(--primary-white-color);
   height: 368px;
   text-align: center;
+  border-radius: 0 0 4px 4px;
+}
+
+.team__card:not(:last-child) {
+  margin-right: 30px;
 }
 .team__text {
   color: var(--primary-text-color);
